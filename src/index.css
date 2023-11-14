@@ -5,9 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+#root{height: 100vh;}
+.App{
+  width: 100%;
+  height: 100%;
+  background: teal;
+}
+.recipe-text{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+  height: 85px;
+  color: #fff;
+  background: rgba(0,0,0,0.6);
+  transition: 0.5s ease all;
+}
+.recipe-text:hover{
+  height: 300px;
+  transition: 0.5s ease all;
 }
